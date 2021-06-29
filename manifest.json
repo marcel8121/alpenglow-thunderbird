@@ -1,0 +1,74 @@
+{
+  "manifest_version":2,
+  "name":"Alpenglow", 
+  "version":"1.0",
+  "icons": {
+    "32": "icon.png",
+    "48": "icon.png",
+    "96": "icon.png"
+  }, 
+  "applications":{
+    "gecko":{
+      "id":"m.kraatz@live.de",
+      "strict_min_version":"60.0"}},
+  "description":"The legendary 'Firefox Alpenglow' theme now available for Thunderbird.",
+
+  "theme":{
+    "images": {
+      "additional_backgrounds": [
+        "background-right.png",
+        "background-left.png",
+        "background.png"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "right top",
+        "left top",
+        "right top"
+      ],
+      "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
+    },
+    "colors":{
+      "frame": "hsl(250, 43%, 25%)",
+      "toolbar": "hsl(250, 43%, 25%)",
+      "button_background_active": "hsl(250, 43%, 25%)",
+      "button_background_hover": "hsl(271, 100%, 77%)",
+      "icons": "hsl(271, 100%, 77%)",
+      "icons_attention": "hsl(157, 100%, 66%)",
+
+      "toolbar_text": "hsl(255, 100%, 94%)",
+      "toolbar_vertical_separator": "hsl(265, 100%, 72%)",
+      "toolbar_field": "hsl(250, 43%, 25%)",
+      "toolbar_field_focus": "hsl(250, 43%, 25%)",
+      "toolbar_field_text": "hsl(255, 100%, 94%)",
+      "toolbar_field_text_focus": "hsl(255, 100%, 94%)",
+      "toolbar_field_border": "hsl(265, 100%, 72%)",
+      "toolbar_field_border_focus": "hsl(265, 100%, 72%)",
+      "toolbar_field_highlight": "hsl(265, 100%, 72%)",
+      "toolbar_top_separator": "hsl(255, 100%, 94%)",
+
+      "bookmark_text": "hsl(255, 100%, 94%)",
+      "tab_text": "hsl(255, 100%, 94%)",
+      "tab_background_text": "hsl(255, 100%, 94%)",
+      "tab_background_separator": "hsl(255, 100%, 94%)",
+
+      "tab_line": "hsl(265, 100%, 72%)",
+      "tab_loading": "hsl(265, 100%, 72%)",
+      "ntp_background": "hsl(250, 43%, 25%)",
+      "ntp_text": "hsl(255, 100%, 94%)",
+      "popup": "hsl(250, 43%, 25%)",
+      "popup_text": "hsl(255, 100%, 94%)",
+      "popup_border": "hsl(255, 100%, 94%)",
+      "popup_highlight": "hsl(250, 43%, 25%)",
+      "popup_highlight_text": "hsl(0, 0%, 100%)",
+      "sidebar": "hsl(250, 43%, 25%)",
+      "sidebar_text": "hsl(255, 100%, 94%)",
+      "sidebar_border": "hsl(255, 100%, 94%)",
+      "sidebar_highlight": "hsl(250, 43%, 25%)",
+      "sidebar_highlight_text": "hsl(0, 0%, 100%)",
+      "focus_outline": "hsl(265, 100%, 72%)"
+
+    }
+  }
+} 
