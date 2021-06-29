@@ -11,4 +11,4 @@ It looks just awesome and doesn't hurt your eyes.
 
 Badabing badabong you have been Alpenglow'd
 
-it's also available on the Official Site [CLICK(https://addons.thunderbird.net/de/thunderbird/addon/alpenglow/)]
+it's also available on the Official Site [CLICK](https://addons.thunderbird.net/de/thunderbird/addon/alpenglow/)
