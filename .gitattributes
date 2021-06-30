@@ -1,1 +1,1 @@
-dist/ linguist-language=json
+dist/* linguist-language=json
