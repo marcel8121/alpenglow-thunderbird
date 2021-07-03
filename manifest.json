@@ -49,7 +49,7 @@
       "toolbar_field_highlight":"hsl(265, 100%, 72%)",
       "toolbar_top_separator":"hsl(255, 100%, 94%)",
       "toolbar_bottom_separator":"hsl(0, 0%, 100%)",
-			"toolbar_field_highlight_text":"hsl(0, 0%, 100%)",
+		  "toolbar_field_highlight_text":"hsl(0, 0%, 100%)",
       "bookmark_text":"hsl(255, 100%, 94%)",
       "tab_text":"hsl(255, 100%, 94%)",
       "tab_background_text":"hsl(255, 100%, 94%)",
