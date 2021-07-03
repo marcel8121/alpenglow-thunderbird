@@ -33,11 +33,10 @@
     "colors":{
       "frame":"hsl(250, 43%, 25%)",
       "frame_inactive":"hsl(250, 43%, 25%)",
-      "button_background_active":"hsl(271, 100%, 77%)",
+      "button_background_active":"hsl(250, 43%, 40%)",
       "button_background_hover":"hsl(271, 100%, 65%)",
       "icons":"hsl(271, 100%, 77%)",
       "icons_attention":"hsl(157, 100%, 66%)",
-
       "toolbar":"hsl(250, 43%, 25%)",
       "toolbar_text":"hsl(255, 100%, 94%)",
       "toolbar_vertical_separator":"hsl(265, 100%, 72%)",
@@ -51,27 +50,23 @@
       "toolbar_top_separator":"hsl(255, 100%, 94%)",
       "toolbar_bottom_separator":"hsl(0, 0%, 100%)",
 			"toolbar_field_highlight_text":"hsl(0, 0%, 100%)",
-
       "bookmark_text":"hsl(255, 100%, 94%)",
       "tab_text":"hsl(255, 100%, 94%)",
       "tab_background_text":"hsl(255, 100%, 94%)",
       "tab_background_separator":"hsl(255, 100%, 94%)",
       "tab_line":"hsl(265, 100%, 72%)",
       "tab_loading":"hsl(265, 100%, 72%)",
-
-      "ntp_background":"hsl(0, 0%, 13%)",
+      "ntp_background":"hsl(0, 1%, 20%)",
       "ntp_text":"hsl(255, 100%, 94%)",
-
-      "popup":"hsl(250, 43%, 25%)",
+      "popup":"hsl(0, 1%, 20%)",
       "popup_text":"hsl(255, 100%, 94%)",
       "popup_border":"hsl(255, 100%, 94%)",
-      "popup_highlight":"hsl(250, 43%, 25%)",
+      "popup_highlight":"hsl(0, 1%, 30%)",
       "popup_highlight_text":"hsl(0, 0%, 100%)",
-
-      "sidebar":"hsl(250, 43%, 25%)",
+      "sidebar":"hsl(0, 1%, 20%)",
       "sidebar_text":"hsl(255, 100%, 94%)",
       "sidebar_border":"hsl(255, 100%, 94%)",
-      "sidebar_highlight":"hsl(250, 43%, 25%)",
+      "sidebar_highlight":"hsl(0, 1%, 30%)",
       "sidebar_highlight_text":"hsl(0, 0%, 100%)",
       "focus_outline":"hsl(255, 100%, 94%)"
     }
