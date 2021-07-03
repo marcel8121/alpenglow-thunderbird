@@ -2,7 +2,7 @@
   "manifest_version":2,
   "name":"Alpenglow",
   "author":"marcel-kraatz", 
-  "version":"1.1",
+  "version":"1.2",
   "icons": {
     "32": "icon.png",
     "48": "icon.png",
