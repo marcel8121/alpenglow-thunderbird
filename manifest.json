@@ -4,9 +4,7 @@
   "author":"marcel-kraatz", 
   "version":"1.4",
   "icons": {
-    "32": "icon.png",
-    "48": "icon.png",
-    "96": "icon.png"
+    "32": "icon.png"
   }, 
   "applications":{
     "gecko":{
