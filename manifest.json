@@ -1,72 +1,73 @@
 {
   "manifest_version":2,
   "name":"Alpenglow",
-  "author":"marcel-kraatz", 
-  "version":"1.4.1",
-  "icons": {
-    "32": "icon.png"
-  }, 
-  "applications":{
-    "gecko":{
-      "id":"m.kraatz@live.de",
-      "strict_min_version":"78.0"}},
   "description":"The legendary 'Firefox Alpenglow' theme now available for Thunderbird.",
-
+  "author":"marcel-kraatz", 
+  "version":"1.5",
+  "icons": {
+      "32": "./icon.png"
+  }, 
+  "applications": {
+      "gecko": {
+          "id":"m.kraatz@live.de",
+          "strict_min_version":"78.0"
+      }
+  },
   "theme":{
-    "images": {
-      "additional_backgrounds": [
-        "background-right.png",
-        "background-left.png",
-        "background.png"
-      ]
-    },
-    "properties": {
-      "additional_backgrounds_alignment": [
-        "right top",
-        "left top",
-        "right top"
-      ],
-      "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
-    },
-    "colors":{
-      "frame":"hsl(250, 43%, 25%)",
-      "frame_inactive":"hsl(250, 43%, 25%)",
-      "button_background_active":"hsl(250, 40%, 50%)",
-      "button_background_hover":"hsl(250, 43%, 40%)",
-      "icons":"hsl(271, 100%, 77%)",
-      "icons_attention":"hsl(157, 100%, 66%)",
-      "toolbar":"hsl(250, 43%, 25%)",
-      "toolbar_text":"hsl(0, 0%, 80%)",
-      "toolbar_vertical_separator":"hsl(1, 1%, 20%)",
-      "toolbar_field":"hsl(250, 43%, 25%)",
-      "toolbar_field_focus":"hsl(250, 43%, 25%)",
-      "toolbar_field_text":"hsl(0, 0%, 80%)",
-      "toolbar_field_text_focus":"hsl(0, 0%, 100%)",
-      "toolbar_field_border":"hsl(265, 100%, 72%)",
-      "toolbar_field_border_focus":"hsl(265, 100%, 72%)",
-      "toolbar_field_highlight":"hsl(265, 100%, 72%)",
-      "toolbar_top_separator":"hsl(1, 1%, 20%)",
-      "toolbar_bottom_separator":"hsl(1, 1%, 20%)",
-		  "toolbar_field_highlight_text":"hsl(0, 0%, 100%)",
-      "bookmark_text":"hsl(0, 0%, 80%)",
-      "tab_text":"hsl(0, 0%, 80%)",
-      "tab_background_text":"hsl(0, 0%, 80%)",
-      "tab_background_separator":"hsl(0, 0%, 100%)",
-      "tab_line":"hsl(265, 100%, 72%)",
-      "tab_loading":"hsl(265, 100%, 72%)",
-      "ntp_background":"hsl(0, 0%, 12%)",
-      "ntp_text":"hsl(0, 0%, 80%)",
-      "popup":"hsl(0, 0%, 12%)",
-      "popup_text":"hsl(0, 0%, 80%)",
-      "popup_border":"hsl(0, 0%, 80%)",
-      "popup_highlight":"hsl(1, 1%, 22%)",
-      "popup_highlight_text":"hsl(0, 0%, 100%)",
-      "sidebar":"hsl(0, 0%, 12%)",
-      "sidebar_text":"hsl(0, 0%, 80%)",
-      "sidebar_border":"hsl(1, 1%, 20%)",
-      "sidebar_highlight":"hsl(1, 1%, 22%)",
-      "sidebar_highlight_text":"hsl(0, 0%, 100%)",
-      "focus_outline":"hsl(1, 1%, 20%)"
-    }
+      "colors":{
+          "frame":"hsl(250, 43%, 25%)",
+          "frame_inactive":"hsl(250, 43%, 25%)",
+          "button_background_active":"hsl(250, 40%, 50%)",
+          "button_background_hover":"hsl(250, 43%, 40%)",
+          "icons":"hsl(271, 100%, 77%)",
+          "icons_attention":"hsl(157, 100%, 66%)",
+          "toolbar":"hsl(250, 43%, 25%)",
+          "toolbar_text":"hsl(0, 0%, 80%)",
+          "toolbar_vertical_separator":"hsl(1, 1%, 20%)",
+          "toolbar_field":"hsl(250, 43%, 25%)",
+          "toolbar_field_focus":"hsl(250, 43%, 25%)",
+          "toolbar_field_text":"hsl(0, 0%, 80%)",
+          "toolbar_field_text_focus":"hsl(0, 0%, 100%)",
+          "toolbar_field_border":"hsl(265, 100%, 72%)",
+          "toolbar_field_border_focus":"hsl(265, 100%, 72%)",
+          "toolbar_field_highlight":"hsl(265, 100%, 72%)",
+          "toolbar_top_separator":"hsl(1, 1%, 20%)",
+          "toolbar_bottom_separator":"hsl(1, 1%, 20%)",
+          "toolbar_field_highlight_text":"hsl(0, 0%, 100%)",
+          "bookmark_text":"hsl(0, 0%, 80%)",
+          "tab_text":"hsl(0, 0%, 80%)",
+          "tab_background_text":"hsl(0, 0%, 80%)",
+          "tab_background_separator":"hsl(0, 0%, 100%)",
+          "tab_line":"hsl(265, 100%, 72%)",
+          "tab_loading":"hsl(265, 100%, 72%)",
+          "ntp_background":"hsl(0, 0%, 12%)",
+          "ntp_text":"hsl(0, 0%, 80%)",
+          "popup":"hsl(0, 0%, 12%)",
+          "popup_text":"hsl(0, 0%, 80%)",
+          "popup_border":"hsl(0, 0%, 80%)",
+          "popup_highlight":"hsl(1, 1%, 22%)",
+          "popup_highlight_text":"hsl(0, 0%, 100%)",
+          "sidebar":"hsl(0, 0%, 12%)",
+          "sidebar_text":"hsl(0, 0%, 80%)",
+          "sidebar_border":"hsl(1, 1%, 20%)",
+          "sidebar_highlight":"hsl(1, 1%, 22%)",
+          "sidebar_highlight_text":"hsl(0, 0%, 100%)",
+          "focus_outline":"hsl(1, 1%, 20%)"
+      },
+      "images": {
+          "additional_backgrounds": [
+              "./background-right.png",
+              "./background-left.png",
+              "./background.png"
+          ]
+      },
+      "properties": {
+          "additional_backgrounds_alignment": [
+              "right top",
+              "left top",
+              "right top"
+          ],
+          "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
+      }
   }
 } 
