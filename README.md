@@ -8,8 +8,8 @@ This is the Way
 Alpenglow is a perfect balance of colorful and dark.
 It looks just awesome and doesn't hurt your eyes at the same time.
 
-I created this project for learning purposes.
-I will try to get it as close as possible to the original one (when i have time).
+I created this project for learning purposes, fun and also there was no Alpenglow theme for Thunderbird which was the main reason i made this.
+I will try to get it as close as possible to the original one.
 
 <h2> Install </h2>
 
