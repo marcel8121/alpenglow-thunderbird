@@ -1,73 +1,73 @@
 {
-  "manifest_version":2,
-  "name":"Alpenglow",
-  "description":"The legendary 'Firefox Alpenglow' theme now available for Thunderbird.",
-  "author":"marcel-kraatz", 
-  "version":"1.5",
-  "icons": {
-      "32": "./icon.png"
-  }, 
-  "applications": {
-      "gecko": {
-          "id":"m.kraatz@live.de",
-          "strict_min_version":"78.0"
-      }
-  },
-  "theme":{
-      "colors":{
-          "frame":"hsl(250, 43%, 25%)",
-          "frame_inactive":"hsl(250, 43%, 25%)",
-          "button_background_active":"hsl(250, 40%, 50%)",
-          "button_background_hover":"hsl(250, 43%, 40%)",
-          "icons":"hsl(271, 100%, 77%)",
-          "icons_attention":"hsl(157, 100%, 66%)",
-          "toolbar":"hsl(250, 43%, 25%)",
-          "toolbar_text":"hsl(0, 0%, 80%)",
-          "toolbar_vertical_separator":"hsl(1, 1%, 20%)",
-          "toolbar_field":"hsl(250, 43%, 25%)",
-          "toolbar_field_focus":"hsl(250, 43%, 25%)",
-          "toolbar_field_text":"hsl(0, 0%, 80%)",
-          "toolbar_field_text_focus":"hsl(0, 0%, 100%)",
-          "toolbar_field_border":"hsl(265, 100%, 72%)",
-          "toolbar_field_border_focus":"hsl(265, 100%, 72%)",
-          "toolbar_field_highlight":"hsl(265, 100%, 72%)",
-          "toolbar_top_separator":"hsl(1, 1%, 20%)",
-          "toolbar_bottom_separator":"hsl(1, 1%, 20%)",
-          "toolbar_field_highlight_text":"hsl(0, 0%, 100%)",
-          "bookmark_text":"hsl(0, 0%, 80%)",
-          "tab_text":"hsl(0, 0%, 80%)",
-          "tab_background_text":"hsl(0, 0%, 80%)",
-          "tab_background_separator":"hsl(0, 0%, 100%)",
-          "tab_line":"hsl(265, 100%, 72%)",
-          "tab_loading":"hsl(265, 100%, 72%)",
-          "ntp_background":"hsl(0, 0%, 12%)",
-          "ntp_text":"hsl(0, 0%, 80%)",
-          "popup":"hsl(0, 0%, 12%)",
-          "popup_text":"hsl(0, 0%, 80%)",
-          "popup_border":"hsl(0, 0%, 80%)",
-          "popup_highlight":"hsl(1, 1%, 22%)",
-          "popup_highlight_text":"hsl(0, 0%, 100%)",
-          "sidebar":"hsl(0, 0%, 12%)",
-          "sidebar_text":"hsl(0, 0%, 80%)",
-          "sidebar_border":"hsl(1, 1%, 20%)",
-          "sidebar_highlight":"hsl(1, 1%, 22%)",
-          "sidebar_highlight_text":"hsl(0, 0%, 100%)",
-          "focus_outline":"hsl(1, 1%, 20%)"
-      },
-      "images": {
-          "additional_backgrounds": [
-              "./background-right.png",
-              "./background-left.png",
-              "./background.png"
-          ]
-      },
-      "properties": {
-          "additional_backgrounds_alignment": [
-              "right top",
-              "left top",
-              "right top"
-          ],
-          "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
-      }
-  }
-} 
+    "manifest_version":2,
+    "name":"Alpenglow",
+    "description":"The legendary 'Firefox Alpenglow' theme now available for Thunderbird.",
+    "author":"marcel-kraatz", 
+    "version":"1.6",
+    "icons": {
+        "32": "./icon.png"
+    }, 
+    "applications": {
+        "gecko": {
+            "id":"m.kraatz@live.de",
+            "strict_min_version":"78.0"
+        }
+    },
+    "theme":{
+        "images": {
+            "additional_backgrounds": [
+                "./background-right.png",
+                "./background-left.png",
+                "./background.png"
+            ]
+        },
+        "properties": {
+            "additional_backgrounds_alignment": [
+                "right top",
+                "left top",
+                "right top"
+            ],
+            "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
+        },
+        "colors":{
+            "frame":"#2d245b",
+            "frame_inactive":"#2d245b",
+            "button_background_active":"#5e4db3",
+            "button_background_hover":"#493a92",
+            "icons":"#c68aff",
+            "icons_attention":"#52ffbd",
+            "toolbar":"#2d245b",
+            "toolbar_text":"#cccccc",
+            "toolbar_vertical_separator":"#343332",
+            "toolbar_field":"#2d245b",
+            "toolbar_field_focus":"#2d245b",
+            "toolbar_field_text":"#cccccc",
+            "toolbar_field_text_focus":"#ffffff",
+            "toolbar_field_border":"#ac70ff",
+            "toolbar_field_border_focus":"#ac70ff",
+            "toolbar_field_highlight":"#ac70ff",
+            "toolbar_top_separator":"#343332",
+            "toolbar_bottom_separator":"#343332",
+            "toolbar_field_highlight_text":"#ffffff",
+            "bookmark_text":"#cccccc",
+            "tab_text":"#cccccc",
+            "tab_background_text":"#cccccc",
+            "tab_background_separator":"#ffffff",
+            "tab_line":"#ac70ff",
+            "tab_loading":"#ac70ff",
+            "ntp_background":"#1f1f1f",
+            "ntp_text":"#cccccc",
+            "popup":"#1f1f1f",
+            "popup_text":"#cccccc",
+            "popup_border":"#cccccc",
+            "popup_highlight":"#393838",
+            "popup_highlight_text":"#ffffff",
+            "sidebar":"#1f1f1f",
+            "sidebar_text":"#cccccc",
+            "sidebar_border":"#343332",
+            "sidebar_highlight":"#393838",
+            "sidebar_highlight_text":"#ffffff",
+            "focus_outline":"#343332"
+        }
+    }
+}
