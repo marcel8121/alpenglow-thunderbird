@@ -3,9 +3,9 @@
     "name":"Alpenglow",
     "description":"The legendary 'Firefox Alpenglow' theme now available for Thunderbird.",
     "author":"marcel-kraatz", 
-    "version":"1.6",
+    "version":"1.7",
     "icons": {
-        "32": "./icon.png"
+        "32": "images/icon.png"
     }, 
     "applications": {
         "gecko": {
@@ -15,59 +15,98 @@
     },
     "theme":{
         "images": {
-            "additional_backgrounds": [
-                "./background-right.png",
-                "./background-left.png",
-                "./background.png"
-            ]
+            "additional_backgrounds": ["images/background-right.svg","images/background-left.svg","images/background.svg"]
         },
         "properties": {
-            "additional_backgrounds_alignment": [
-                "right top",
-                "left top",
-                "right top"
-            ],
+            "additional_backgrounds_alignment": ["right top","left top","right top"],
+            "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
+        },
+        "colors":
+        {
+            "frame": "hsla(240, 20%, 98%, 1)",
+            "toolbar": "hsla(0, 0%, 100%, .76)",
+            "button_background_active": "hsla(240, 26%, 11%, .16)",
+            "button_background_hover": "hsla(240, 26%, 11%, .08)",
+            "icons": "hsla(258, 66%, 48%, 1)",
+            "icons_attention": "hsla(180, 100%, 32%, 1)",
+            "toolbar_text": "hsla(261, 53%, 15%, 1)",
+            "toolbar_vertical_separator": "hsla(261, 53%, 15%, .08)",
+            "toolbar_field": "hsla(0, 0%, 100%, .8)",
+            "toolbar_field_focus": "hsla(0, 0%, 100%, .8)",
+            "toolbar_field_text": "hsla(261, 53%, 15%, 1)",
+            "toolbar_field_text_focus": "hsla(255, 100%, 94%, 1)",
+            "toolbar_field_border": "hsla(261, 53%, 15%, .32)",
+            "toolbar_field_border_focus": "hsla(265, 100%, 72%, 1)",
+            "toolbar_field_highlight": "hsla(265, 100%, 72%, .32)",
+            "toolbar_field_separator": "hsla(261, 53%, 15%, .32)",
+            "toolbar_top_separator": "hsla(261, 53%, 15%, 1)",
+            "toolbar_bottom_separator": "hsla(261, 53%, 15%, .32)",
+            "bookmark_text": "hsla(261, 53%, 15%, 1)",
+            "tab_text": "hsla(261, 53%, 15%, 1)",
+            "tab_background_text": "hsla(261, 53%, 15%, 1)",
+            "tab_background_separator": "hsla(261, 53%, 15%, 1)",
+            "tab_line": "hsla(265, 100%, 72%, 1)",
+            "tab_loading": "hsla(265, 100%, 72%, 1)",
+            "ntp_background": "hsla(0, 0%, 100%, 1)",
+            "ntp_text": "hsla(261, 53%, 15%, 1)",
+            "popup": "hsla(254, 46%, 21%, 1)",
+            "popup_text": "hsla(255, 100%, 94%, 1)",
+            "popup_border": "hsla(255, 100%, 94%, .32)",
+            "popup_highlight": "hsla(255, 100%, 94%, .12)",
+            "sidebar": "hsla(240, 15%, 95%, 1)",
+            "sidebar_text": "hsla(261, 53%, 15%, 1)",
+            "sidebar_border": "hsla(261, 53%, 15%, .24)",
+            "sidebar_highlight": "#cccccc",
+            "sidebar_highlight_text": "#1e1e1e"
+        }
+    },
+    "dark_theme":{
+        "images": {
+            "additional_backgrounds": ["images/background-right-dark.svg","images/background-left-dark.svg","images/background-dark.svg"]
+        },
+        "properties": {
+            "additional_backgrounds_alignment": ["right top","left top","right top"],
             "additional_backgrounds_tiling": ["no-repeat", "no-repeat", "repeat-x"]
         },
         "colors":{
-            "frame":"#2d245b",
+            "frame":"hsla(261, 53%, 15%, .60)",
             "frame_inactive":"#2d245b",
             "button_background_active":"#5e4db3",
             "button_background_hover":"#493a92",
-            "icons":"#c68aff",
-            "icons_attention":"#52ffbd",
-            "toolbar":"#2d245b",
+            "icons":"hsla(265, 100%, 72%, 1)",
+            "icons_attention":"hsla(180, 100%, 32%, 1)",
+            "toolbar":"hsla(261, 53%, 15%, .60)",
             "toolbar_text":"#cccccc",
-            "toolbar_vertical_separator":"#343332",
+            "toolbar_vertical_separator":"hsla(0, 0%, 0%, .0)",
             "toolbar_field":"#2d245b",
             "toolbar_field_focus":"#2d245b",
             "toolbar_field_text":"#cccccc",
-            "toolbar_field_text_focus":"#ffffff",
-            "toolbar_field_border":"#ac70ff",
-            "toolbar_field_border_focus":"#ac70ff",
-            "toolbar_field_highlight":"#ac70ff",
-            "toolbar_top_separator":"#343332",
-            "toolbar_bottom_separator":"#343332",
-            "toolbar_field_highlight_text":"#ffffff",
+            "toolbar_field_text_focus":"hsla(0, 0%, 100%, 1)",
+            "toolbar_field_border":"hsla(261, 53%, 15%, .60)",
+            "toolbar_field_border_focus":"hsla(265, 100%, 72%, 1)",
+            "toolbar_field_highlight":"hsla(265, 100%, 72%, 1)",
+            "toolbar_field_separator": "hsla(0, 0%, 0%, .0)",
+            "toolbar_top_separator":"hsla(0, 0%, 0%, .0)",
+            "toolbar_bottom_separator":"hsla(0, 0%, 0%, .0)",
+            "toolbar_field_highlight_text":"hsla(0, 0%, 100%, 1)",
             "bookmark_text":"#cccccc",
             "tab_text":"#cccccc",
             "tab_background_text":"#cccccc",
-            "tab_background_separator":"#ffffff",
-            "tab_line":"#ac70ff",
-            "tab_loading":"#ac70ff",
-            "ntp_background":"#1f1f1f",
+            "tab_background_separator":"hsla(0, 0%, 0%, .0)",
+            "tab_line":"hsla(265, 100%, 72%, 1)",
+            "tab_loading":"hsla(265, 100%, 72%, 1)",
+            "ntp_background":"hsla(261, 53%, 15%, .60)",
             "ntp_text":"#cccccc",
-            "popup":"#1f1f1f",
-            "popup_text":"#cccccc",
-            "popup_border":"#cccccc",
-            "popup_highlight":"#393838",
-            "popup_highlight_text":"#ffffff",
-            "sidebar":"#1f1f1f",
+            "popup": "hsla(254, 46%, 21%, 1)",
+            "popup_text": "hsla(255, 100%, 94%, 1)",
+            "popup_border": "hsla(255, 100%, 94%, .32)",
+            "popup_highlight": "hsla(255, 100%, 94%, .12)",
+            "popup_highlight_text":"hsla(0, 0%, 100%, 1)",
+            "sidebar":"#252525",
             "sidebar_text":"#cccccc",
-            "sidebar_border":"#343332",
+            "sidebar_border":"#1e1e1e",
             "sidebar_highlight":"#393838",
-            "sidebar_highlight_text":"#ffffff",
-            "focus_outline":"#343332"
+            "sidebar_highlight_text":"hsla(0, 0%, 100%, 1)"
         }
     }
 }
